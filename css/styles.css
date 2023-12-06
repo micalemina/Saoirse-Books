@@ -173,7 +173,7 @@ a {
 
 /* ************************************ MOBILE ************************************* */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 420px) {
   .grilla {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
@@ -335,7 +335,7 @@ a {
 
 /* ************************************ DESKTOP ************************************* */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 420px) {
 
   .grilla {
     grid-template-columns: 1fr;
