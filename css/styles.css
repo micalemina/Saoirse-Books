@@ -42,6 +42,16 @@ body {
   height: 175px;
 }
 
+.row_scroll, .box8 {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.col {
+  margin-right: 40px;
+}
+
 .foo_logo {
   width: 80px;
   height: 111px;
@@ -93,6 +103,10 @@ a {
   height: 100%;
 }
 
+.genre{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .genre:hover{
 	background-color: #edeae4;
 	color: #153147;
@@ -163,14 +177,17 @@ a {
   .grilla {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    margin-left: 20px;
+    width:100%;
   }
 
-  .text_search, .B36_rm_d, .b36_title_variant_d, .genre_gone {
+  .text_search, .B36_rm_d, .b36_title_variant_d {
 	display: none;
   }
 
   .box1 {
 	  border-top: 1px solid #b9b6af;
+    background-color: #fff9dd;
     display: flex;
     grid-row: 7 / 8;
     height: 50px;
@@ -209,7 +226,7 @@ a {
     grid-row: 5 / 6;
     height: 250px;
     display: flex;
-	margin-bottom: 40px;
+	  margin-bottom: 40px;
   }
   .box7 {
     grid-row: 6 / 7;
@@ -300,30 +317,6 @@ a {
     letter-spacing: -0.32px;
   }
 
-  .g1{
-    width: 40px;
-  }
-
-  .g2{
-   width: 55px;
-  }
-
-  .g3{
-	width: 85px;
-  }
-  
-  .g4{
-	width: 65px;
-  }
-
-  .g5{
-	width: 75px;
-  }
-
-  .g6{
-	width: 90px;
-  }
-
   .genre{
 	height: 24px;
 	text-align: center;
@@ -356,7 +349,7 @@ a {
   .box1 {
     position: sticky;
     display:flexbox;
-    height: 610px;
+    ;
     width: 80px;
     top: 0;
     margin-left: 30px;
@@ -500,33 +493,6 @@ a {
     letter-spacing: -0.32px;
   }
 
-  .g1{
-    width: 50px;
-  }
-
-  .g2{
-   width: 65px;
-  }
-
-  .g3{
-	width: 95px;
-  }
-  
-  .g4{
-	width: 75px;
-  }
-
-  .g5{
-	width: 85px;
-  }
-
-  .g6{
-	width: 100px;
-  }
-
-  .g7{
-    width: 150px;
-  }
 
   .genre{
 	height: 25px;
