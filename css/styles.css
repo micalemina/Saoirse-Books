@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
 body {
   margin: 0;
+  background-color: #EDEAE4;
 }
 
 .box0 {
@@ -23,12 +24,12 @@ body {
 }
 
 .box3 {
-  background-color: #f2efe7;
+  background-color: #F2EFE7;
   border-radius: 10px;
 }
 
 .box6 {
-  background-color: #f2efe7;
+  background-color: #F2EFE7;
   height: 175px;
 }
 
@@ -93,7 +94,7 @@ body {
   padding-right: 10px;
 }
 .genre:hover {
-  background-color: #edeae4;
+  background-color: #EDEAE4;
   color: #153147;
 }
 
@@ -101,8 +102,8 @@ body {
   display: flex;
   height: 290px;
   width: 550px;
-  background-color: #f2efe7;
-  border: 1px solid #b9b6af;
+  background-color: #F2EFE7;
+  border: 1px solid #B9B6AF;
   border-radius: 8px;
 }
 
@@ -168,8 +169,8 @@ body {
     display: none;
   }
   .box1 {
-    border-top: 1px solid #b9b6af;
-    background-color: #fff9dd;
+    border-top: 1px solid #B9B6AF;
+    background-color: #F2EFE7;
     display: flex;
     grid-row: 7/8;
     height: 50px;
@@ -286,7 +287,7 @@ body {
     text-align: center;
     border-radius: 4px;
     background-color: #153147;
-    color: #FFF;
+    color: #F2EFE7;
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
@@ -314,8 +315,8 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
-    border-right: 1px solid #b9b6af;
-    border-left: 1px solid #b9b6af;
+    border-right: 1px solid #B9B6AF;
+    border-left: 1px solid #B9B6AF;
   }
   .logo {
     margin-bottom: 30px;
@@ -434,7 +435,7 @@ body {
     text-align: center;
     border-radius: 4px;
     background-color: #153147;
-    color: #FFF;
+    color: #F2EFE7;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;

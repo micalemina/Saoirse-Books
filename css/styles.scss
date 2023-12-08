@@ -1,16 +1,18 @@
 // VARIABLES
 $primarycolor: #F2EFE7;
 $secondarycolor: #153147;
-$bordercolor: #B9B6AF;
+$backgroundcolor: #EDEAE4;
+$textcolor: #121212;
+$bordercolor:  1px solid #B9B6AF;
 $primaryfont: Montserrat;
 $secondaryfont: Cormorant;
-
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
 
 body {
   margin: 0;
+  background-color: $backgroundcolor;
 }
 
 .box0 {
@@ -32,12 +34,12 @@ body {
 }
 
 .box3 {
-  background-color: #f2efe7;
+  background-color: $primarycolor;
   border-radius: 10px;
 }
 
 .box6 {
-  background-color: #f2efe7;
+  background-color: $primarycolor;
   height: 175px;
 }
 
@@ -63,8 +65,8 @@ body {
 .foo_title, a {
   display: inline-block;
   list-style: none;
-  color: #121212;
-  font-family: Montserrat;
+  color: $textcolor;
+  font-family: $primaryfont;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -76,7 +78,7 @@ body {
   margin-bottom: 25px;
   vertical-align: top;
   margin-right: 20px;
-  color: #153147;
+  color: $secondarycolor;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -85,7 +87,7 @@ body {
 .text_search {
   text-decoration: none;
   color: rgba(18, 18, 18, 0.7);
-  font-family: Montserrat;
+  font-family: $primaryfont;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -102,8 +104,8 @@ body {
   padding-right: 10px;
 
   &:hover {
-    background-color: #edeae4;
-    color: #153147;
+    background-color: $backgroundcolor;
+    color: $secondarycolor;
   }
 }
 
@@ -111,8 +113,8 @@ body {
   display: flex;
   height: 290px;
   width: 550px;
-  background-color: #f2efe7;
-  border: 1px solid #b9b6af;
+  background-color: $primarycolor;
+  border: $bordercolor;
   border-radius: 8px;
 }
 
@@ -133,8 +135,8 @@ body {
 }
 
 .b_title {
-  color: #153147;
-  font-family: Montserrat;
+  color: $secondarycolor;
+  font-family: $primaryfont;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -143,8 +145,8 @@ body {
 }
 
 .b_author {
-  color: #121212;
-  font-family: Montserrat;
+  color: $textcolor;
+  font-family: $primaryfont;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -153,8 +155,8 @@ body {
 }
 
 .b_pages {
-  color: #121212;
-  font-family: Montserrat;
+  color: $textcolor;
+  font-family: $primaryfont;
   font-size: 12px;
   font-style: normal;
   font-weight: 300;
@@ -181,8 +183,8 @@ body {
   }
 
   .box1 {
-    border-top: 1px solid #b9b6af;
-    background-color: #fff9dd;
+    border-top: $bordercolor;
+    background-color: $primarycolor;
     display: flex;
     grid-row: 7 / 8;
     height: 50px;
@@ -254,9 +256,9 @@ body {
   }
 
   .b36_title, .b36_title_variant_m {
-    color: #121212;
+    color: $textcolor;
     font-size: 24px;
-    font-family: Cormorant;
+    font-family: $secondaryfont;
     font-weight: 400;
     line-height: 21px;
   }
@@ -266,9 +268,9 @@ body {
   }
 
   .b36_rm_m, .B36_rm {
-    color: #153147;
+    color: $secondarycolor;
     font-size: 16px;
-    font-family: Montserrat;
+    font-family: $primaryfont;
     font-weight: 500;
     line-height: 21px;
   }
@@ -287,8 +289,8 @@ body {
 
   h2 {
     margin-bottom: 20px;
-    color: #121212;
-    font-family: Montserrat;
+    color: $textcolor;
+    font-family: $primaryfont;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -297,8 +299,8 @@ body {
   }
 
   .title {
-    color: #121212;
-    font-family: Montserrat;
+    color:$textcolor;
+    font-family: $primaryfont;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -307,8 +309,8 @@ body {
   }
 
   .author {
-    color: #121212;
-    font-family: Montserrat;
+    color: $textcolor;
+    font-family: $primaryfont;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -320,9 +322,9 @@ body {
     height: 24px;
     text-align: center;
     border-radius: 4px;
-    background-color: #153147;
-    color: #FFF;
-    font-family: Montserrat;
+    background-color: $secondarycolor;
+    color: $primarycolor;
+    font-family: $primaryfont;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -353,8 +355,8 @@ body {
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
-    border-right: 1px solid #b9b6af;
-    border-left: 1px solid #b9b6af;
+    border-right: $bordercolor;
+    border-left: $bordercolor;
   }
 
   .logo {
@@ -426,33 +428,33 @@ body {
   }
 
   .b36_title, .b36_title_variant_d {
-    color: #121212;
+    color: $textcolor;
     font-size: 28px;
-    font-family: Cormorant;
+    font-family: $secondaryfont;
     font-weight: 400;
     line-height: 21px;
   }
 
   .b36_subtitle {
-    color: #121212;
+    color: $textcolor;
     font-size: 14px;
-    font-family: Montserrat;
+    font-family: $primaryfont;
     font-weight: 300;
     line-height: 21px;
   }
 
   .b36_rm_d, .B36_rm {
-    color: #153147;
+    color: $secondarycolor;
     font-size: 18px;
-    font-family: Montserrat;
+    font-family: $primaryfont;
     font-weight: 500;
     line-height: 21px;
   }
 
   h2 {
     margin-bottom: 20px;
-    color: #121212;
-    font-family: Montserrat;
+    color: $textcolor;
+    font-family: $primaryfont;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -473,8 +475,8 @@ body {
   }
 
   .title {
-    color: #121212;
-    font-family: Montserrat;
+    color: $textcolor;
+    font-family: $primaryfont;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -483,8 +485,8 @@ body {
   }
 
   .author {
-    color: #121212;
-    font-family: Montserrat;
+    color: $textcolor;
+    font-family: $primaryfont;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -496,9 +498,9 @@ body {
     height: 25px;
     text-align: center;
     border-radius: 4px;
-    background-color: #153147;
-    color: #FFF;
-    font-family: Montserrat;
+    background-color: $secondarycolor;
+    color: $primarycolor;
+    font-family: $primaryfont;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
