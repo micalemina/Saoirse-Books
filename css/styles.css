@@ -249,15 +249,10 @@ h3:hover {
     height: 250px;
     margin-bottom: 30px;
   }
-  .box12 {
-    display: block;
-    margin-left: 0px;
-    margin-top: 30px;
-  }
   .box9 {
     display: flex;
     height: 260px;
-    width: 420px;
+    width: 360px;
     background-color: #F2EFE7;
     border: 1px solid #B9B6AF;
     border-radius: 8px;
@@ -269,8 +264,14 @@ h3:hover {
     margin-left: 15px;
     margin-top: 20px;
   }
+  .box12 {
+    margin-left: 0px;
+    margin-top: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
   .b_info {
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 20px;
   }
   .b_title {
@@ -599,6 +600,7 @@ h3:hover {
     font-weight: 300;
     line-height: 21px;
     letter-spacing: -0.32px;
+    margin-top: 100px;
   }
 }
 
