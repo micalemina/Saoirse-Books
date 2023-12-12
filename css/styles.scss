@@ -47,7 +47,7 @@ body {
 .box6 {
   background-color: $primarycolor;
 }
-
+ 
 .row_scroll,
 .box8 {
   display: flex;
@@ -83,8 +83,8 @@ a {
 }
 
 h5 {
+  margin-top: 8px;
   margin-bottom: 25px;
-  vertical-align: top;
   margin-right: 20px;
   color: $secondarycolor;
   font-size: 16px;
@@ -158,7 +158,7 @@ h3 {
 
   .box3 {
     height: 150px;
-    display: flex;
+    display: flex; 
   }
  
   .box5 { 
@@ -166,19 +166,20 @@ h3 {
   }
   
   .box6 {
-    height: 150px;
+    height: 150px; 
     display: flex;
+    margin-bottom: 100px; 
   } 
 
-  .box7 {
-    height: 85px; 
-  } 
+  .box16 { 
+    margin-bottom: 100px;
+  }
 
   .logo,
   .box1 .profile {
     display: none;
   }
-
+ 
   .box2 {
  
     .profile,
@@ -291,9 +292,6 @@ h3 {
     margin-left: 0px;
     margin-top: 30px;
   }
-  .box13 {
-    margin-bottom: 30px;
-  }
 
   .box9 {
     display: flex;
@@ -350,7 +348,6 @@ h3 {
   .text_box {
     width: 150px;
   }
-  
 }
 
 /* ************************************ DESKTOP ************************************* */
@@ -366,7 +363,13 @@ h3 {
   .bookshelf {
     height: 960px;  
   }
-  
+  .abooks {
+    height: 1200px;  
+  }
+  .articulos {
+    height: 1720px; 
+  }
+   
   .b36_title_variant_m,
   .B36_rm_m {
     display: none;
@@ -407,7 +410,7 @@ h3 {
     min-width: 700px;
     margin-left: 140px;
   }
-
+  
   .box4 {
     display: block; 
     position: absolute;
@@ -431,21 +434,27 @@ h3 {
     margin-left: 140px;
   }
 
-  .box7, .box7g, .box7bs  {  
+  .box7, .box7g, .box7bs, .box7ab, .box7art {  
     display: flex;
     position: absolute;  
-    top: 1570px;
-    margin-left: 75px; 
+    margin-left: 75px;  
     min-width: 700px;
     justify-items: stretch;  
+  }  
+  .box7 {  
+    top: 1570px;
   }
-  
   .box7g { 
     top: 920px; 
   }
-
   .box7bs{
     top: 810px; 
+  }
+  .box7ab { 
+    top: 1050px;
+  }  
+  .box7art { 
+    top: 1570px;  
   }
 
   .box8 {
@@ -460,21 +469,55 @@ h3 {
     top: 125px;
     margin-left: 140px;
   }
-
   .box11 {
     display: block; 
     position: absolute; 
     top: 515px;
     margin-left: 140px;
   }
-
   .box12 {
     display: block; 
     position: absolute;  
     top: 400px; 
     margin-left: 130px;
   }
-  
+  .box13a {
+    display: block; 
+    position: absolute;  
+    top: 80px;
+    margin-left: 130px;
+  }  
+  .box13b {
+    display: block; 
+    position: absolute; 
+    top: 580px;
+    margin-left: 130px;
+  }  
+  .box13c {
+    display: block; 
+    position: absolute; 
+    top: 1080px;
+    margin-left: 130px;
+  }
+  .box14 { 
+    display: block; 
+    position: absolute;
+    top: 90px;
+    margin-left: 140px;
+  }
+  .box15 {
+    display: block; 
+    position: absolute;
+    top: 370px; 
+    margin-left: 140px;
+  }
+  .box16 {
+    display: block;
+    position: absolute;
+    top: 715px; 
+    margin-left: 140px;
+  }
+
   .box2 { 
     .profile {
       display: none;

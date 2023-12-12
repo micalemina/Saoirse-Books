@@ -1,214 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Discover a world of books with our reading app. Explore a vast library, read your favorite genres, and immerse yourself in captivating stories." />
-    <title>Home</title>
-    <link 
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-      crossorigin="anonymous" 
-    />
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic"
-      rel="stylesheet" 
-    />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Discover a world of books with our reading app. Explore a vast library, read your favorite genres, and immerse yourself in captivating stories." />
+  <meta name="keywords" content="E-library E-books Online articles Digital library Online bookstore Novels Offline reading" />
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic"
+    rel="stylesheet" />
+</head>
 
-  <body class="home">
-    <!-- --------------- HEADER ----------------- -->
-    <header class="box1">
-      <img class="logo" src="img/logo.png" alt="Header Logo" />
-      <a href="./index.html"><img class="ic_nav" src="img/icons/homefull.svg" alt="Home Full Icon" /></a>
-      <a href="./pages/genres.html"><img class="ic_nav" src="img/icons/menu.svg" alt="Genres Icon" /></a>
-      <a href="./pages/bookshelf.html"><img class="ic_nav" src="img/icons/library.svg" alt="Bookshelf Icon" /></a>
-      <a href="./pages/audiobooks.html"><img class="ic_nav" src="img/icons/headset.svg" alt="Audibooks Icon" /></a>
-      <a href="./pages/articles.html"><img class="ic_nav" src="img/icons/newspaper.svg" alt="Articles Icon" /></a>
-      <img class="profile mt-5" src="img/profilepic.png" />
-    </header>
-    <!-- --------------- SEARCH BAR ----------------- -->
-    <search class="box2">
-      <img class="lupa" src="img/icons/search.svg" alt="Search Icon" />
-      <img class="profile" src="img/profilepic.png" alt="Profile Picture" />
-      <span class="text_search">Search book title, author</span>
-    </search>
-    <!-- --------------- ARTICLE ----------------- -->
-    <article class="box3 container p-0">
-      <texto class="vert_center">
-        <p class="b36_title">
-          Stanzas of understanding: The world through poetic lens
-        </p>
-        <p class="b36_subtitle">
-          Is an exploration of how the art of poetry offers us a unique
-          perspective on reality. As we delve into this lyrical journey,
-          we'll discover how verses and rhymes, with their power to evoke
-          emotions and provoke contemplation
-        </p>
-        <a href="#" class="B36_rm">
-          <p>
-            Read more →
-          </p>
-        </a>
-      </texto>
-      <img class="group27" src="img/b3_imgage.png" alt="Article Banner" />
-    </article>
-    <!-- --------------- AUDIOBOOKS ----------------- -->
-    <audiobks class="box4 container p-0">
-      <titulo class="row ml-0">
-          <h2>Listen & Discover</h2>
-      </titulo>
-      <books class="row_scroll">
-        <div class="col">
-          <img class="ab_img" src="img/ab1.png" alt="The Night Piece" />
-          <p class="title">The Night Piece</p>
-          <p class="author">by André Alexis</p>
-        </div>
-        <div class="col">
-          <img class="ab_img" src="img/ab2.png" alt="Origin" />
-          <p class="title">Origin</p>
-          <p class="author">by Dan Brown</p>
-        </div>
-        <div class="col">
-          <img class="ab_img" src="img/ab3.png" alt="Harry Potter #6" />
-          <p class="title">Harry Potter #6</p>
-          <p class="author">by J. K. Rowling</p>
-        </div>
-        <div class="col">
-          <img class="ab_img" src="img/ab4.png" alt="Voyager" />
-          <p class="title">Voyager</p>
-          <p class="author">by Diana Gabaldon</p>
-        </div>
-        <div class="col">
-          <img class="ab_img" src="img/ab5.png" alt="The Alchemist" />
-          <p class="title">The Alchemist</p>
-          <p class="author">by Paulo Coelho</p>
-        </div>
-        <div class="col">
-          <img class="ab_img" src="img/ab6.png" alt="Insomnia" />
-          <p class="title">Insomnia</p>
-          <p class="author">by Sthepen King</p>
-        </div>
-      </books>
-    </audiobks>
-    <!-- --------------- PREVIOUS READINGS ----------------- -->
-    <previous class="box5 container p-0">
-      <titulo class="row ml-0">
-        <h2>Based on your previous readings</h2>
-      </titulo>
-      <books class="row_scroll">
-        <div class="col">
-          <img class="b_img" src="img/pr1.png" alt="Lost Boy" />
-          <p class="title">Lost Boy</p>
-          <p class="author">by Christina Henry</p>
-        </div>
-        <div class="col">
-          <img class="b_img" src="img/pr2.png" alt="Gingerbread" />
-          <p class="title">Gingerbread</p>
-          <p class="author">by Helen Oyeyemi</p>
-        </div>
-        <div class="col">
-          <img class="b_img" src="img/pr3.png" alt="Tales of the Peculiar" />
-          <p class="title">Tales of the Peculiar</p>
-          <p class="author">by Ransom Riggs</p>
-        </div>
-        <div class="col">
-          <img class="b_img" src="img/pr4.png" alt="After Alice" />
-         <p class="title">After Alice</p>
-          <p class="author">by Gregory Maguire</p>
-        </div>
-        <div class="col">
-          <img class="b_img" src="img/pr5.png" alt="The Fox and the Star" />
-          <p class="title">The Fox and the Star</p>
-          <p class="author">by C. Bickford Smith</p>
-        </div>
-        <div class="col">
-          <img class="b_img" src="img/pr6.png" alt="Dance of Thieves" />
-          <p class="title">Dance of Thieves</p>
-          <p class="author">by Mary E. Pearson</p>
-        </div>
-      </books>
-    </previous>
-    <!-- --------------- NEWSLETTER ----------------- -->
-    <newslt class="box6 container p-0">
-      <img class="group27" src="img/Group 28.png" alt="Newsletter Image" />
-      <signupform class="vert_center">
-        <p class="b36_title_variant_d mb-4">
-          Sign up to Saoirse Newsletter for the latest books,
-          recommendations, articles and more
-        </p>
-        <p class="b36_title_variant_m">
-          Sign up to Saoirse Newsletter
-        </p>
-        <form>
-          <input class="text_box" type="text" id="email" name="email" placeholder="Your email" required />
-          <input class="B36_rm_d" type="submit" value="Sign up →" />
-          <input class="B36_rm_m" type="submit" value="→" />
-        </form>
-        <p class="b36_subtitle mt-4">
-          To find out what personal data we collect and how we use it,
-          please visit our Privacy Policy
-        </p>
-      </signupform>
-    </newslt>
-    <!-- --------------- FOOTER ----------------- -->
-    <footer class="box7 container">
-      <div class="col-md-3">
-        <img class="foo_logo" src="./img/footerlogo.png" alt="Footer Logo" />
-      </div>
-      <div class="col-md-2">
-        <h5>Services</h5>
-        <ul class="list-unstyled">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./pages/genres.html">Genres</a></li>
-          <li><a href="./pages/bookshelf.html">Bookshelf</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <ul class="list-unstyled">
-          <li><a href="#"></a></li>
-        </ul>
-        <ul class="list-unstyled">
-          <li><a href="./pages/audiobooks.html">Audiobooks</a></li>
-          <li><a href="./pages/articles.html">Articles</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <h5>Information</h5>
-        <ul class="list-unstyled">
-          <li><a>Help & FAQs</a></li>
-          <li><a>About</a></li>
-          <li><a>Privacy policy</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <h5>Media</h5>
-        <ul class="list-unstyled">
-          <li><a>Follow us</a></li>
-          <li class="socialmedia"></li>
-          <a href="https://github.com/micalemina"><img src="./img/icons/github.svg" alt="Github Logo" /></a>
-          <a href="https://www.linkedin.com/in/micaela-lemi%C3%B1a-6339a3241"><img src="./img/icons/linkedin.svg" alt="Linkedin Logo" /></a>
-          <a href="https://www.behance.net/micaelalemina"><img src="./img/icons/behance.svg" alt="Behance Logo" /></a>
-        </ul>
-      </div>
-    </footer>
+<body class="home">
+  <!-- --------------- HEADER ----------------- -->
+  <header class="box1">
+    <img class="logo" src="img/logo.png" />
+    <a href="./index.html"><img class="ic_nav" src="img/icons/homefull.svg" /></a>
+    <a href="./pages/genres.html"><img class="ic_nav" src="img/icons/menu.svg" /></a>
+    <a href="./pages/bookshelf.html"><img class="ic_nav" src="img/icons/library.svg" /></a>
+    <a href="./pages/audiobooks.html"><img class="ic_nav" src="img/icons/headset.svg" /></a>
+    <a href="./pages/articles.html"><img class="ic_nav" src="img/icons/newspaper.svg" /></a>
+    <img class="profile mt-5" src="img/profilepic.png" />
+  </header>
+  <!-- --------------- SEARCH BAR ----------------- -->
+  <search class="box2">
+    <img class="lupa" src="img/icons/search.svg" alt="Search Icon" />
+    <img class="profile" src="img/profilepic.png" alt="Profile Picture" />
+    <span class="text_search">Search book title, author</span>
+  </search>
+  <!-- --------------- ARTICLE ----------------- -->
+  <article class="box3 container">
 
-    <script 
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
-      crossorigin="anonymous">
+    <texto class="vert_center">
+      <p class="b36_title">
+        Stanzas of understanding: The world through poetic lens
+      </p>
+      <p class="b36_subtitle">
+        Is an exploration of how the art of poetry offers us a unique
+        perspective on reality. As we delve into this lyrical journey,
+        we'll discover how verses and rhymes, with their power to evoke
+        emotions and provoke contemplation
+      </p>
+      <a href="#" class="B36_rm">
+        <p>
+          Read more →
+        </p>
+      </a>
+    </texto>
+    <img class="group27" src="img/b3_imgage.png" />
+  </article>
+  <!-- --------------- AUDIOBOOKS ----------------- -->
+  <audiobks class="box4 container">
+    <titulo class="row ml-0">
+      <h2>Listen & Discover</h2>
+    </titulo>
+    <libros class="row_scroll">
+      <div class="col">
+        <img class="ab_img" src="img/ab1.png" />
+        <p class="title">The Night Piece</p>
+        <p class="author">by André Alexis</p>
+      </div>
+      <div class="col">
+        <img class="ab_img" src="img/ab2.png" />
+        <p class="title">Origin</p>
+        <p class="author">by Dan Brown</p>
+      </div>
+      <div class="col">
+        <img class="ab_img" src="img/ab3.png" />
+        <p class="title">Harry Potter #6</p>
+        <p class="author">by J. K. Rowling</p>
+      </div>
+      <div class="col">
+        <img class="ab_img" src="img/ab4.png" />
+        <p class="title">Voyager</p>
+        <p class="author">by Diana Gabaldon</p>
+      </div>
+      <div class="col">
+        <img class="ab_img" src="img/ab5.png" />
+        <p class="title">The Alchemist</p>
+        <p class="author">by Paulo Coelho</p>
+      </div>
+      <div class="col">
+        <img class="ab_img" src="img/ab6.png" />
+        <p class="title">Insomnia</p>
+        <p class="author">by Sthepen King</p>
+      </div>
+    </libros>
+  </audiobks>
+  <!-- --------------- PREVIOUS READINGS ----------------- -->
+  <previous class="box5 container">
+    <titulo class="row ml-0">
+      <h2>Based on your previous readings</h2>
+    </titulo>
+    <libros class="row_scroll">
+      <div class="col">
+        <img class="b_img" src="img/pr1.png" />
+        <p class="title">Lost Boy</p>
+        <p class="author">by Christina Henry</p>
+      </div>
+      <div class="col">
+        <img class="b_img" src="img/pr2.png" />
+        <p class="title">Gingerbread</p>
+        <p class="author">by Helen Oyeyemi</p>
+      </div>
+      <div class="col">
+        <img class="b_img" src="img/pr3.png" />
+        <p class="title">Tales of the Peculiar</p>
+        <p class="author">by Ransom Riggs</p>
+      </div>
+      <div class="col">
+        <img class="b_img" src="img/pr4.png" />
+        <p class="title">After Alice</p>
+        <p class="author">by Gregory Maguire</p>
+      </div>
+      <div class="col">
+        <img class="b_img" src="img/pr5.png" />
+        <p class="title">The Fox and the Star</p>
+        <p class="author">by C. Bickford Smith</p>
+      </div>
+      <div class="col">
+        <img class="b_img" src="img/pr6.png" />
+        <p class="title">Dance of Thieves</p>
+        <p class="author">by Mary E. Pearson</p>
+      </div>
+    </libros>
+  </previous>
+  <!-- --------------- NEWSLETTER ----------------- -->
+  <newslt class="box6 container">
+    <img class="group27" src="img/Group 28.png" />
+    <signupform class="vert_center">
+      <p class="b36_title_variant_d mb-4">Sign up to Saoirse Newsletter for the latest books,
+        recommendations, articles and more
+      </p>
+      <p class="b36_title_variant_m">Sign up to Saoirse Newsletter
+      </p>
+      <form>
+        <input class="text_box" type="text" id="email" name="email" placeholder="Your email" required />
+        <input class="B36_rm_d" type="submit" value="Sign up →" />
+        <input class="B36_rm_m" type="submit" value="→" />
+      </form>
+      <p class="b36_subtitle mt-4">
+        To find out what personal data we collect and how we use it,
+        please visit our Privacy Policy
+      </p>
+    </signupform>
+  </newslt>
+  <!-- --------------- FOOTER ----------------- -->
+  <footer class="box7 container">
+    <div class="col-md-3">
+      <img class="foo_logo" src="./img/footerlogo.png" />
+    </div>
+    <div class="col-md-2">
+      <h5>Services</h5>
+      <ul class="list-unstyled">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/genres.html">Genres</a></li>
+        <li><a href="./pages/bookshelf.html">Bookshelf</a></li>
+      </ul>
+    </div>
+    <div class="col-md-2">
+      <ul class="list-unstyled">
+        <li><a href="#"></a></li>
+      </ul>
+      <ul class="list-unstyled">
+        <li><a href="./pages/audiobooks.html">Audiobooks</a></li>
+        <li><a href="./pages/articles.html">Articles</a></li>
+      </ul>
+    </div>
+    <div class="col-md-2">
+      <h5>Information</h5>
+      <ul class="list-unstyled">
+        <li><a>Help & FAQs</a></li>
+        <li><a>About</a></li>
+        <li><a>Privacy policy</a></li>
+      </ul>
+    </div>
+    <div class="col-md-2">
+      <h5>Media</h5>
+      <ul class="list-unstyled">
+        <li><a>Follow us</a></li>
+        <li class="socialmedia"></li>
+        <a href="https://github.com/micalemina"><img src="./img/icons/github.svg" /></a>
+        <a href="https://www.linkedin.com/in/micaela-lemi%C3%B1a-6339a3241"><img src="./img/icons/linkedin.svg" /></a>
+        <a href="https://www.behance.net/micaelalemina"><img src="./img/icons/behance.svg" /></a>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
-    <script 
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
-      crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
-  </body>
+</body>
 </html>

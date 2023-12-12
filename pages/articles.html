@@ -16,131 +16,116 @@
     rel="stylesheet" />
 </head>
 
-<body class="d-flex">
+<body class="articulos">
   <!-- --------------- HEADER ----------------- -->
-  <div class="box1">
+  <header class="box1">
     <img class="logo" src="../img/logo.png" />
     <a href="../index.html"><img class="ic_nav" src="../img/icons/home.svg" /></a>
     <a href="./genres.html"><img class="ic_nav" src="../img/icons/menu.svg" /></a>
     <a href="./bookshelf.html"><img class="ic_nav" src="../img/icons/library.svg" /></a>
     <a href="./audiobooks.html"><img class="ic_nav" src="../img/icons/headset.svg" /></a>
     <a href="./articles.html"><img class="ic_nav" src="../img/icons/newspaperfull.svg" /></a>
-    <img class="profile" src="../img/profilepic.png" />
-  </div>
+    <img class="profile mt-5" src="../img/profilepic.png" />
+  </header>
   <!-- --------------- SEARCH BAR ----------------- -->
-  <div class="grilla">
-    <div class="box2">
-      <img class="lupa" src="../img/icons/search.svg" alt="Search Icon" />
-      <img class="profile" src="../img/profilepic.png" alt="Profile Picture" />
-      <span class="text_search">Search topic, author</span>
+  <search class="box2">
+    <img class="lupa" src="../img/icons/search.svg" alt="Search Icon" />
+    <img class="profile" src="../img/profilepic.png" alt="Profile Picture" />
+    <span class="text_search">Search topic, author</span>
+  </search>
+  <!-- --------------- UPLOADS ----------------- -->
+  <uploads class="box13a container">
+    <titulo class="row ml-0">
+      <h2>New uploads</h2>
+    </titulo>
+    <libros class="row_scroll">
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/nu1.png">
+      </resumen>
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/nu2.png">
+      </resumen>
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/nu3.png">
+      </resumen>
+    </libros>
+  </uploads>
+  <!-- --------------- MYTHS ----------------- -->
+  <mitos class="box13b container">
+    <titulo class="row ml-0">
+      <h2>Myths from around the globe</h2>
+    </titulo>
+    <libros class="row_scroll">
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/m1.png">
+      </resumen>
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/m2.png">
+      </resumen>
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/m3.png">
+      </resumen>
+    </libros>
+  </mitos>
+  <!-- --------------- POETS ----------------- -->
+  <poetas class="box13c container">
+    <titulo class="row ml-0">
+      <h2>Poetic Masterpieces</h2>
+    </titulo>
+    <libros class="row_scroll">
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/p1.png">
+      </resumen>
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/p2.png">
+      </resumen>
+      <resumen class="col">
+        <img class="art_img" src="../img/articles/p3.png">
+      </resumen>
+    </libros>
+  </poetas>
+  <!-- --------------- FOOTER ----------------- -->
+  <footer class="box7art container">
+    <div class="col-md-3">
+      <img class="foo_logo" src="../img/footerlogo.png" />
     </div>
-
-    <!-- --------------- UPLOADS ----------------- -->
-    <div class="box11">
-
-      <div class="container p-0">
-        <div class="row ml-0">
-          <h2>New uploads</h2>
-        </div>
-        <div class="row_scroll">
-          <div class="col">
-            <img class="art_img" src="../img/articles/nu1.png">
-          </div>
-          <div class="col">
-            <img class="art_img" src="../img/articles/nu2.png">
-          </div>
-          <div class="col">
-            <img class="art_img" src="../img/articles/nu3.png">
-          </div>
-        </div>
-      </div>
+    <div class="col-md-2">
+      <h5>Services</h5>
+      <ul class="list-unstyled">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./genres.html">Genres</a></li>
+        <li><a href="./bookshelf.html">Bookshelf</a></li>
+      </ul>
     </div>
-    <!-- --------------- MYTHS ----------------- -->
-    <div class="box11">
-
-      <div class="container p-0">
-        <div class="row ml-0">
-          <h2>Myths from around the globe</h2>
-        </div>
-        <div class="row_scroll">
-          <div class="col">
-            <img class="art_img" src="../img/articles/m1.png">
-          </div>
-          <div class="col">
-            <img class="art_img" src="../img/articles/m2.png">
-          </div>
-          <div class="col">
-            <img class="art_img" src="../img/articles/m3.png">
-          </div>
-        </div>
-      </div>
+    <div class="col-md-2">
+      <ul class="list-unstyled">
+        <li><a href="#"></a></li>
+      </ul>
+      <ul class="list-unstyled">
+        <li><a href="./audiobooks.html">Audiobooks</a></li>
+        <li><a href="./articles.html">Articles</a></li>
+      </ul>
     </div>
-    <!-- --------------- POETS ----------------- -->
-    <div class="box11 box13">
-
-      <div class="container p-0">
-        <div class="row ml-0">
-          <h2>Poetic Masterpieces</h2>
-        </div>
-        <div class="row_scroll">
-          <div class="col">
-            <img class="art_img" src="../img/articles/p1.png">
-          </div>
-          <div class="col">
-            <img class="art_img" src="../img/articles/p2.png">
-          </div>
-          <div class="col">
-            <img class="art_img" src="../img/articles/p3.png">
-          </div>
-        </div>
-      </div>
-
+    <div class="col-md-2">
+      <h5>Information</h5>
+      <ul class="list-unstyled">
+        <li><a>Help & FAQs</a></li>
+        <li><a>About</a></li>
+        <li><a>Privacy policy</a></li>
+      </ul>
     </div>
-    <div class="box0"></div>
-    <!-- --------------- FOOTER ----------------- -->
-    <div class="row container7">
-      <div class="col-md-3">
-        <img class="foo_logo" src="../img/footerlogo.png" />
-      </div>
-      <div class="col-md-2">
-        <h5 class="foo_title">Services</h5>
-        <ul class="list-unstyled">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./genres.html">Genres</a></li>
-          <li><a href="./bookshelf.html">Bookshelf</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <ul class="list-unstyled">
-          <li><a href="#"></a></li>
-        </ul>
-        <ul class="list-unstyled">
-          <li><a href="./audiobooks.html">Audiobooks</a></li>
-          <li><a href="./articles.html">Articles</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <h5 class="foo_title">Information</h5>
-        <ul class="list-unstyled">
-          <li><a>Help & FAQs</a></li>
-          <li><a>About</a></li>
-          <li><a>Privacy policy</a></li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <h5 class="foo_title">Media</h5>
-        <ul class="list-unstyled">
-          <li><a>Follow us</a></li>
-          <li class="socialmedia"></li>
-          <a href="https://github.com/micalemina"><img src="../img/icons/github.svg" /></a>
-          <a href="https://www.linkedin.com/in/micaela-lemi%C3%B1a-6339a3241"><img
-              src="../img/icons/linkedin.svg" /></a>
-          <a href="https://www.behance.net/micaelalemina"><img src="../img/icons/behance.svg" /></a>
-        </ul>
-      </div>
+    <div class="col-md-2">
+      <h5>Media</h5>
+      <ul class="list-unstyled">
+        <li><a>Follow us</a></li>
+        <li class="socialmedia"></li>
+        <a href="https://github.com/micalemina"><img src="../img/icons/github.svg" /></a>
+        <a href="https://www.linkedin.com/in/micaela-lemi%C3%B1a-6339a3241"><img src="../img/icons/linkedin.svg" /></a>
+        <a href="https://www.behance.net/micaelalemina"><img src="../img/icons/behance.svg" /></a>
+      </ul>
     </div>
-  </div>
-  
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>

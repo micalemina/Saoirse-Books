@@ -149,6 +149,10 @@ h3:hover {
   .box6 {
     height: 150px;
     display: flex;
+    margin-bottom: 100px;
+  }
+  .box16 {
+    margin-bottom: 100px;
   }
   .logo,
   .box1 .profile {
@@ -250,9 +254,6 @@ h3:hover {
     margin-left: 0px;
     margin-top: 30px;
   }
-  .box13 {
-    margin-bottom: 30px;
-  }
   .box9 {
     display: flex;
     height: 260px;
@@ -318,7 +319,7 @@ h3:hover {
     height: 1200px;
   }
   .articulos {
-    height: 1000px;
+    height: 1720px;
   }
   .b36_title_variant_m,
   .B36_rm_m {
@@ -375,7 +376,7 @@ h3:hover {
     min-width: 700px;
     margin-left: 140px;
   }
-  .box7, .box7g, .box7bs, .box7ab {
+  .box7, .box7g, .box7bs, .box7ab, .box7art {
     display: flex;
     position: absolute;
     margin-left: 75px;
@@ -393,6 +394,9 @@ h3:hover {
   }
   .box7ab {
     top: 1050px;
+  }
+  .box7art {
+    top: 1570px;
   }
   .box8 {
     position: absolute;
@@ -426,13 +430,13 @@ h3:hover {
   .box13b {
     display: block;
     position: absolute;
-    top: 700px;
+    top: 580px;
     margin-left: 130px;
   }
   .box13c {
     display: block;
     position: absolute;
-    top: 1000px;
+    top: 1080px;
     margin-left: 130px;
   }
   .box14 {
