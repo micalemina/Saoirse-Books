@@ -1,0 +1,164 @@
+// MOBILE STYLES
+
+@media only screen and ( (max-width: 744px) or (max-height: 561px) ) {
+
+    .text_search,
+    .B36_rm_d,
+    .b36_title_variant_d {
+      display: none;
+    }
+  
+    .box1 {
+      @include rectang (100%, 50px);
+      border-top: $bordercolor;
+      background-color: $primarycolor;
+      display: flex;
+      align-content: center;
+      justify-content: space-around;
+      position: fixed;
+      bottom: 0px;
+    }
+  
+    .box2 {
+  
+      justify-content: right;
+      padding-right: 10px;
+  
+      .profile,
+      .lupa {
+        height: 30px;
+        padding-left: 20px;
+      }
+  
+      a {
+        display: none;
+      }
+    }
+  
+    .box3 {
+      height: 150px;
+    }
+  
+    .box5 {
+      @include rectang (360px, 260px);
+      margin-left: 10px;
+    }
+  
+    .box6 {
+      margin-left: 10px;
+    }
+  
+    .ic_nav {
+      margin-top: 10px;
+      @include rectang (30px, 30px);
+    }
+  
+    .logo,
+    .box1 .profile {
+      display: none;
+    }
+  
+    .col-md-3,
+    .col-md-2 {
+      display: none;
+    }
+  
+    .b36_title,
+    .b36_title_variant_m {
+      font-size: 24px;
+      line-height: 21px;
+    }
+    .b36_title_article {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  
+    .b36_subtitle {
+      display: none;
+    }
+  
+    .b36_rm_m,
+    .B36_rm {
+      font-size: 16px;
+    }
+  
+    .ab_img {
+      @include rectang (120px, 120px);
+       margin-bottom: 10px;
+    }
+  
+    .b_img {
+      @include rectang (120px, 180px);
+      margin-bottom: 10px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .title {
+      font-size: 14px;
+      line-height: 15px;
+    }
+  
+    .author {
+      font-size: 14px;
+    }
+  
+    h3 {
+      height: 24px;
+      font-size: 12px;
+    }
+  
+    .art_img {
+      @include rectang (230px, 122px);
+    }
+  
+    .library {
+      height: 250px;
+      margin-bottom: 30px;
+    }
+  
+    .book {
+      @include rectang (140px, 210px);
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+  
+    .b_info {
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+  
+    .b_title {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  
+    .b_author {
+      font-size: 14px;
+    }
+  
+    .b_pages {
+      font-size: 10px;
+      margin-top: 60px;
+    }
+  
+    .text_box {
+      width: 150px;
+    }
+  
+    .fix_W,
+    .fix_W_last {
+      max-width: 230px;
+      background-color: $primarycolor;
+    }
+  
+    .fix_W {
+      margin-right: 30px;
+    }
+  
+    .fix_W_last {
+      margin-right: 0px;
+    }
+}  

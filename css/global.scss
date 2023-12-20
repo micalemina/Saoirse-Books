@@ -1,0 +1,118 @@
+// GLOBAL STYLES
+
+.vert_center {
+    margin: auto;
+    text-align: left;
+    padding-left: 5px;
+}
+  
+.row_scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.col {
+    margin-right: 40px;
+}
+  
+.list-unstyled li a,
+a {
+    text-decoration: none;
+}
+  
+h5,
+a {
+    display: inline-block;
+    list-style: none;
+    @include std_txt ($primaryfont, normal, $textcolor, 400, 21px, -0.32px);
+    font-size: 14px;
+}
+  
+h5 {
+    margin-top: 8px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    @include std_txt ($primaryfont, normal, $secondarycolor, 500, 20px, -0.32px);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+.text_search {
+    text-decoration: none;
+    @include std_txt ($primaryfont, normal, rgba(18, 18, 18, 0.7), 400, 22px, -0.408px);
+    font-size: 18px;
+}
+  
+.title {
+    @include std_txt ($primaryfont, normal, $textcolor, 500, 21px, -0.32px);
+}
+  
+.author {
+    @include std_txt ($primaryfont, normal, $textcolor, 300, 0px, -0.32px);
+}
+  
+.b_title {
+    @include std_txt ($primaryfont, normal, $secondarycolor, 500, 18px, -0.32px);
+}
+  
+.b_author {
+    @include std_txt ($primaryfont, normal, $textcolor, 400, 21px, -0.32px);
+}
+  
+.b_pages {
+    @include std_txt ($primaryfont, normal, $textcolor, 300, 21px, -0.32px);
+}
+  
+h2 {
+    margin-bottom: 20px;
+    @include std_txt ($primaryfont, normal, $textcolor, 500, 21px, -0.32px);
+}
+  
+h3 {
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: $secondarycolor;
+    @include std_txt ($primaryfont, normal, $primarycolor, 400, 25px, 0.38px);
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: $backgroundcolor;
+      color: $secondarycolor;
+    }
+}
+  
+.b36_title, .b36_title_article,
+.b36_title_variant_m,
+.b36_title_variant_d {
+    color: $textcolor;
+    font-family: $secondaryfont;
+    font-weight: 400;
+}
+  
+.b36_rm_m,
+.b36_rm_d,
+.B36_rm {
+    color: $secondarycolor;
+    font-family: $primaryfont;
+    font-weight: 500;
+    line-height: 21px;
+}
+  
+.group27 {
+    height: 100%;
+}
+  
+.library {
+    height: 330px;
+}
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+    filter: invert(33%);
+}

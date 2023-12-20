@@ -1,0 +1,162 @@
+// DESKTOP STYLES
+
+@media only screen and (min-width: 745px) and (min-height: 562px) {
+
+    .b36_title_variant_m,
+    .B36_rm_m {
+      display: none;
+    }
+  
+    .box1 {
+      position: sticky;
+      display: block;
+      width: 80px;
+      top: 0px;
+      margin-left: 30px;
+      margin-right: 30px;
+      text-align: center;
+      border-right: $bordercolor;
+      border-left: $bordercolor;
+    }
+  
+    .box2 {
+      .profile {
+        display: none;
+      }
+    }
+  
+    .box3 {
+      height: 370px;
+      min-width: 700px;
+    }
+  
+    .box5 {
+      @include rectang (550px, 290px);
+    }
+  
+    .box7 {
+      display: flex;
+      min-width: 700px;
+      justify-items: stretch;
+    }
+  
+    .logo {
+      margin-bottom: 15px;
+    }
+  
+    .ic_nav {
+      margin-bottom: 20px;
+    }
+  
+    .profile {
+      margin-top: 10px;
+    }
+  
+    .lupa {
+      height: 18px;
+      padding-right: 5px;
+    }
+  
+    .foo_logo {
+      @include rectang (80px, 111px);
+      margin-left: 50px;
+      margin-top: 12px;
+    }
+  
+    .b36_title,
+    .b36_title_variant_d {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  
+    .b36_title_article  {
+      font-size: 24px;
+      line-height: 25px;
+    }
+  
+    .b36_subtitle {
+      color: $textcolor;
+      font-size: 14px;
+      font-family: $primaryfont;
+      font-weight: 300;
+      line-height: 21px;
+    }
+  
+    .b36_rm_d,
+    .B36_rm {
+      font-size: 18px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .ab_img {
+      @include rectang (160px, 160px);
+      margin-bottom: 15px;
+      transition: all .2s ease-in-out;
+    }
+  
+    .b_img {
+      @include rectang (160px, 240px);
+      margin-bottom: 15px;
+      transition: all .2s ease-in-out;
+    }
+  
+    .ab_img:hover,
+    .b_img:hover {
+      transform: scale(1.2);
+    }
+  
+    .title {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  
+    .author {
+      font-size: 16px;
+    }
+  
+    h3 {
+      height: 25px;
+      font-size: 14px;
+    }
+  
+    .book {
+      @include rectang (168px, 240px);
+      margin-left: 30px;
+      margin-top: 25px;
+    }
+  
+    .b_info {
+      margin-left: 60px;
+      margin-top: 30px;
+    }
+  
+    .b_title {
+      font-size: 24px;
+    }
+  
+    .b_author {
+      font-size: 20px;
+    }
+  
+    .b_pages {
+      font-size: 12px;
+      margin-top: 100px;
+    }
+  
+    .fix_W,
+    .fix_W_last {
+      max-width: 377px;
+      background-color: $primarycolor;
+    }
+  
+    .fix_W {
+      margin-right: 40px;
+    }
+  
+    .fix_W_last {
+      margin-right: 0px;
+    }
+}
