@@ -1,1 +1,2 @@
-![Logo](https://github.com/micalemina/Saoirse-Books/assets/144962610/3232d84b-d529-4ce4-8579-b7cec936013b)
+![Logo](https://github.com/micalemina/Saoirse-Books/assets/144962610/68407173-18e8-40fc-9484-e04a60a15f9e)
+
