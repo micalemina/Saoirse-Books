@@ -2,7 +2,7 @@
 
 # Saoirse Books
 
-Saoirse Books is a reading web application that offers a diverse collection of books, audiobooks, articles, and more. Users can explore, read, and engage with various reading materials seamlessly.
+Saoirse Books is a reading web that offers a diverse collection of books, audiobooks, articles, and more. Users can explore, read, and engage with various reading materials seamlessly.
 
 ## Description
 
